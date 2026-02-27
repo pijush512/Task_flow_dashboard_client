@@ -12,10 +12,7 @@ const Sidebar = () => {
         logOut(); 
         navigate('/auth/login');
     }
-
-
     const isActive = (path) => location.pathname === path;
-
     const menuItems = [
         { name: 'Dashboard', icon: <FiGrid />, path: '/dashboard' },
         { name: 'Tasks', icon: <FiCheckSquare />, path: '#', badge: '12+' },
@@ -26,15 +23,12 @@ const Sidebar = () => {
 
     return (
         <aside className="w-[280px] bg-white border-r border-gray-100 hidden lg:flex flex-col p-8 h-screen sticky top-0">
-            {/* Logo */}
             <div className="flex items-center gap-2 mb-10">
                 <div className="w-8 h-8 bg-[#114D43] rounded-full flex items-center justify-center">
                     <div className="w-4 h-4 border-2 border-white rounded-full"></div>
                 </div>
                 <span className="font-bold text-xl text-gray-900 tracking-tight">Donezo</span>
             </div>
-
-            {/* Menu */}
             <div className="mb-8">
                 <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-4">Menu</p>
                 <nav className="space-y-1">
@@ -52,8 +46,6 @@ const Sidebar = () => {
                     ))}
                 </nav>
             </div>
-
-            {/* General */}
             <div className="flex-1">
                 <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-4">General</p>
                 <nav className="space-y-1">
@@ -68,8 +60,6 @@ const Sidebar = () => {
                     </button>
                 </nav>
             </div>
-
-            {/* Bottom Card */}
             <div className="bg-[#0A2D28] p-5 rounded-[24px] relative overflow-hidden">
                 <p className="text-white text-sm font-bold leading-snug relative z-10 mb-3">Download our<br/>Mobile App</p>
                 <p className="text-gray-400 text-[10px] mb-4 relative z-10">Get easy in another way</p>

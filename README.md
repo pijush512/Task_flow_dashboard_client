@@ -1,16 +1,21 @@
-# React + Vite
+🔑 Login Credentials
+Use the following credentials to test the application:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Email: user1@example.com
 
-Currently, two official plugins are available:
+Password: password123
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 Project Structure
+src/components: UI components like Navbar, Sidebar, and Footer.
 
-## React Compiler
+src/context: AuthProvider for global authentication state.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+src/layouts: Layout wrappers for Auth and Dashboard pages.
 
-## Expanding the ESLint configuration
+src/pages: Main page components (Home, Login, Dashboard).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👤 Developer
+Pijush Sarker Frontend Developer Intern Candidate
+
+
+Submitted for the Frontend Intern Dashboard Task - February 2026

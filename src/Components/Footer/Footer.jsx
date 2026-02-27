@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Footer = () => {
     return (
         <footer className="bg-gray-200 border-t border-gray-100 py-8 mt-auto">
@@ -14,7 +13,6 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-
         </footer>
     );
 };
