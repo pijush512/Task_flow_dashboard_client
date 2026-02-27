@@ -23,7 +23,7 @@ const Navbar = () => {
                 <Link to="/" className="text-slate-600 hover:text-indigo-600 font-medium transition">Home</Link>
                 {token ? (
                     <>
-                        <Link to="/dashboard" className="text-slate-600 hover:text-indigo-600 font-medium transition">Dashboard</Link>
+                        <Link to="/dashboard/admin" className="text-slate-600 hover:text-indigo-600 font-medium transition">Dashboard</Link>
                         <button 
                             onClick={handleLogout}
                             className="bg-indigo-600 text-white px-5 py-2 rounded-full font-medium hover:bg-indigo-700 transition"
