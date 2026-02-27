@@ -17,7 +17,7 @@ const Navbar = () => {
                     <div className="w-9 h-9 bg-[#114D43] rounded-xl flex items-center justify-center shadow-lg shadow-green-900/10">
                         <span className="text-white font-black text-xl">T</span>
                     </div>
-                    <div className="text-xl font-black text-slate-800 tracking-tighter">
+                    <div className="text-xl md:block hidden font-black text-slate-800 tracking-tighter">
                         Task<span className="text-[#114D43]">Flow</span>
                     </div>
                 </Link>
