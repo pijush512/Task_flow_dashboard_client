@@ -22,7 +22,7 @@ const Sidebar = () => {
     ];
 
     return (
-        <aside className="w-[280px] bg-white border-r border-gray-100 hidden lg:flex flex-col p-8 h-screen sticky top-0">
+        <aside className="w-full h-full bg-white border-r border-gray-100 flex flex-col p-8 overflow-y-auto">
             <div className="flex items-center gap-2 mb-10">
                 <div className="w-8 h-8 bg-[#114D43] rounded-full flex items-center justify-center">
                     <div className="w-4 h-4 border-2 border-white rounded-full"></div>
