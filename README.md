@@ -14,6 +14,8 @@ src/layouts: Layout wrappers for Auth and Dashboard pages.
 
 src/pages: Main page components (Home, Login, Dashboard).
 
+Live Link: https://task-flow-dashboard-client.vercel.app/
+
 👤 Developer
 Pijush Sarker Frontend Developer Intern Candidate
 
