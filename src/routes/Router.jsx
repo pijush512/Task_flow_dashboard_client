@@ -36,9 +36,9 @@ const router = createBrowserRouter(
       </PrivateRoute>,
       children: [
         {
-          path: "/dashboard/admin",
-          element: <Dashboard></Dashboard>
-        }
+          index: true, // এর ফলে /dashboard এ গেলেই Dashboard দেখা যাবে
+          element: <Dashboard />
+        },
       ]
     },
     {
